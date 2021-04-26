@@ -25,6 +25,7 @@ Each file has it own function:
 Out of the folder there are other .txt files (to execute the program and find a word in this texts) and a Makefile. Let's explain what can this Makefile do.
 
 How to execute the program? 🤔
+
 I've created a Makefile do in order to divide the program in diferents directories: src, exec, obj... And facilitate the compilation and execution of the program.
 
 The instructions of the make file are: 📖

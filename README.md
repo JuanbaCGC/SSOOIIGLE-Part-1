@@ -1,5 +1,5 @@
 # SSOOIIGLE-Part-1
-Work for the subject of Operating Systems II.
+Practice for the subject of Operating Systems II.
 
 The objective of this practice is to create a word finder. The method to follow is to create as many threads as the user enters and each thread will search a part of the text. At the end, 
 the program has to show the results of the coincidences. 
@@ -28,11 +28,10 @@ How to execute the program? 🤔
 I've created a Makefile do in order to divide the program in diferents directories: src, exec, obj... And facilitate the compilation and execution of the program.
 
 The instructions of the make file are: 📖
-	1. If you want to make all de directories, compile the program and execute it at the same time, you just have to put: make all. Then, the Makefile will do the rest.
-	1. To create the directories, you only have to put: make dirs.
-	2. To compile the program you have to insert: make SSOOIIGLE main
-	3. To execute the program, you have two options to enter on the command line: make execute1 or make execute2. Each example of execution find differents words in differents .txt.
-	   To do this, the exec directory must have the executable (do "make SSOOIIGLE main" before).
-	4. If you want to clean all the dirs, just insert: make clean.
+   1. If you want to make all de directories, compile the program and execute it at the same time, you just have to put: make all. Then, the Makefile will do the rest.
+   2. To create the directories, you only have to put: make dirs.
+   3. To compile the program you have to insert: make SSOOIIGLE main
+   4. To execute the program, you have two options to enter on the command line: make execute1 or make execute2. Each example of execution find differents words in differents .txt. To do this, the exec directory must have the executable (do "make SSOOIIGLE main" before).
+   5. If you want to clean all the dirs, just insert: make clean.
 
 Practice made by Juan Bautista Castaño García-Cervigón 👨‍🎓
